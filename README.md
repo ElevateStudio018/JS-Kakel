@@ -2,7 +2,7 @@
 
 Statisk enkelsida, ingen byggprocess. Öppna `docs/index.html` i en webbläsare eller ladda upp mappen `docs/` till valfritt webbhotell.
 
-Förhandsvisning (GitHub Pages från `docs/`): https://elevatestudio018.github.io/JS-Kakel/ – första versionen på https://elevatestudio018.github.io/JS-Kakel/v1/
+Förhandsvisning: https://elevatestudio018.github.io/JS-Kakel/ (vidarebefordrar till `docs/`) – första versionen på https://elevatestudio018.github.io/JS-Kakel/docs/v1/
 
 - `docs/` – hemsidan (HTML, CSS, optimerade bilder). Version 2: en mix av Bloms El & Data
   (blå navbar i firmans färg, duotone-hero, fyra förtroendekort) och Ängö Entreprenad
