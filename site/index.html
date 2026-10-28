@@ -4,135 +4,174 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>JS Kakel &amp; Sten AB – plattsättare i Kungälv och Göteborg</title>
-  <meta name="description" content="Kakel, klinker och stensättning i Kungälv och Göteborg. Behörig våtrumsföretag enligt BKR. Joakim Schramek, Kärna. Tel 0725-200 520.">
+  <meta name="description" content="Kakel, klinker och stensättning i Kungälv och Göteborg. Behörigt våtrumsföretag enligt BKR. Joakim Schramek, Kärna. Tel 0725-200 520.">
   <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400;62..125,500;62..125,700;62..125,800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<header class="top">
-  <div class="wrap top__inner">
-    <a href="#" class="top__logo" aria-label="JS Kakel &amp; Sten AB, till startsidan">
-      <img src="img/logo.png" alt="JS Kakel &amp; Sten AB" width="684" height="171">
+<header class="nav" id="nav">
+  <div class="in nav__in">
+    <a href="#" class="nav__logo" aria-label="JS Kakel &amp; Sten AB, till startsidan">
+      <img src="img/logo-vit.png" alt="JS Kakel &amp; Sten AB" width="684" height="171">
     </a>
-    <nav class="top__nav" aria-label="Huvudmeny">
+    <nav class="nav__links" aria-label="Huvudmeny">
       <a href="#tjanster">Tjänster</a>
-      <a href="#arbetsgang">Arbetsgång</a>
-      <a href="#inspiration">Inspiration</a>
+      <a href="#vatrum">Våtrum</a>
+      <a href="#om">Om</a>
+      <a href="#fragor">Frågor</a>
       <a href="#kontakt">Kontakt</a>
     </nav>
-    <a class="top__tel" href="tel:+46725200520">0725-200 520</a>
+    <a class="btn btn-y nav__cta" href="tel:+46725200520">0725-200 520</a>
+    <button class="nav__menu" type="button" aria-expanded="false" aria-controls="drop">Meny</button>
+  </div>
+  <div class="nav__drop" id="drop">
+    <a href="#tjanster">Tjänster</a>
+    <a href="#vatrum">Våtrum</a>
+    <a href="#om">Om</a>
+    <a href="#fragor">Frågor</a>
+    <a href="#kontakt">Kontakt</a>
   </div>
 </header>
 
 <main>
 
   <section class="hero">
-    <div class="wrap hero__grid">
-      <div class="hero__text">
-        <p class="label">Plattsättare · Kärna, Kungälv</p>
-        <h1>Kakel, klinker och sten&shy;sättning i Kungälv och Göteborg.</h1>
-        <p class="lead">Jag heter Joakim Schramek och driver JS Kakel &amp; Sten. Badrum, kök, golv och uteplatser – från underarbete och tätskikt till sista fogen.</p>
-        <div class="hero__actions">
-          <a class="btn btn--solid" href="tel:+46725200520">Ring 0725-200 520</a>
-          <a class="btn" href="#kontakt">Skicka en förfrågan</a>
-        </div>
-        <dl class="facts">
-          <div><dt>Behörighet</dt><dd>Våtrum enligt BKR</dd></div>
-          <div><dt>I gång sedan</dt><dd>2014</dd></div>
-          <div><dt>Område</dt><dd>Kungälv, Göteborg med omnejd</dd></div>
-        </dl>
+    <img class="hero__bg" src="img/terrass-klinker.jpg" alt="" width="1300" height="920">
+    <div class="hero__shade"></div>
+    <div class="in hero__in">
+      <p class="kicker">Kärna · Kungälv · Göteborg</p>
+      <h1>Kakel, klinker och <span class="hl">stensättning</span></h1>
+      <p class="lead">Joakim Schramek sätter kakel och klinker åt privatpersoner i Kungälv och Göteborg sedan 2014. Badrum, kök, golv och uteplatser, från underarbete till sista fogen.</p>
+      <div class="btns">
+        <a class="btn btn-y" href="tel:+46725200520">Ring 0725-200 520</a>
+        <a class="btn btn-ghost arrow" href="#kontakt">Begär offert</a>
       </div>
-      <figure class="hero__img">
-        <img src="img/vagg-relief.jpg" alt="Grå reliefkakel på vägg med blå glasvaser framför" width="1400" height="1867">
-      </figure>
     </div>
-  </section>
-
-  <section id="tjanster" class="section">
-    <div class="wrap split">
-      <h2>Det här gör jag</h2>
-      <ul class="services">
-        <li>
-          <h3>Badrum och våtrum</h3>
-          <p>Helrenovering eller nytt badrum. Tätskikt, golvbrunn och fall enligt branschreglerna för våtrum. Du får ett kvalitetsdokument när jobbet är klart, som du har nytta av mot försäkringsbolaget och vid försäljning.</p>
-        </li>
-        <li>
-          <h3>Kök</h3>
-          <p>Stänkskydd och kakelväggar. Rak sättning, förskjutet, fiskben eller mosaik.</p>
-        </li>
-        <li>
-          <h3>Golv i klinker</h3>
-          <p>Hall, kök, tvättstuga och storformat. Avjämning och underlag ingår i bedömningen.</p>
-        </li>
-        <li>
-          <h3>Natursten och stensättning</h3>
-          <p>Kalksten, skiffer, granit och marmor, inne och ute. Trappor, fönsterbänkar och murar.</p>
-        </li>
-        <li>
-          <h3>Uteplats och terrass</h3>
-          <p>Klinker och sten utomhus, lagt för att klara frost och vatten.</p>
-        </li>
+    <div class="in">
+      <ul class="trust">
+        <li><i>01</i>Behörigt våtrumsföretag, BKR</li>
+        <li><i>02</i>Kvalitetsdokument på våtrum</li>
+        <li><i>03</i>ROT-avdrag på arbetet</li>
+        <li><i>04</i>F-skatt, i gång sedan 2014</li>
       </ul>
     </div>
   </section>
 
-  <section id="arbetsgang" class="section section--line">
-    <div class="wrap split">
-      <h2>Så går det till</h2>
-      <ol class="steps">
-        <li>
-          <h3>Du hör av dig</h3>
-          <p>Ring eller skriv vad som ska göras. Skicka gärna med några bilder på rummet.</p>
-        </li>
-        <li>
-          <h3>Jag kommer ut och tittar</h3>
-          <p>Vi går igenom underlag, mått och material på plats.</p>
-        </li>
-        <li>
-          <h3>Offert</h3>
-          <p>Du får en skriftlig offert. ROT-avdraget dras på arbetskostnaden.</p>
-        </li>
-        <li>
-          <h3>Utförande</h3>
-          <p>Jag gör jobbet själv, från rivning till fog. Våtrum dokumenteras enligt BKR.</p>
-        </li>
-      </ol>
-    </div>
-  </section>
-
-  <section id="inspiration" class="section section--line">
-    <div class="wrap">
-      <div class="split split--head">
-        <h2>Inspiration</h2>
-        <p class="muted">Ett urval plattor och sättmönster från leverantörer jag arbetar med. Mer finns hos <a href="https://www.cchoganas.se" rel="noopener">CC Höganäs</a>.</p>
+  <section id="tjanster">
+    <div class="in">
+      <div class="head">
+        <div>
+          <p class="eyebrow">Tjänster</p>
+          <h2>Det här gör jag</h2>
+        </div>
+        <a class="arrow" href="#kontakt">Fråga om ditt jobb</a>
       </div>
-      <div class="gallery">
-        <figure class="g1"><img src="img/badrum-gra.jpg" alt="Badrum med grå storformatskakel och dekorplattor" loading="lazy" width="1100" height="1467"><figcaption>Badrum, grått storformat</figcaption></figure>
-        <figure class="g2"><img src="img/terrass-klinker.jpg" alt="Uteplats med ljusgrå klinker som fortsätter in i vardagsrummet" loading="lazy" width="1300" height="920"><figcaption>Klinker inne och ute</figcaption></figure>
-        <figure class="g3"><img src="img/fischgrat-metall.jpg" alt="Kakel i korgmönster med blank yta" loading="lazy" width="1200" height="900"><figcaption>Korgmönster</figcaption></figure>
-        <figure class="g4"><img src="img/kok-kakel.jpg" alt="Kök med kvadratiskt kakel och mörk bård bakom spisen" loading="lazy" width="1100" height="1306"><figcaption>Kök, kvadratiskt kakel med bård</figcaption></figure>
+      <div class="tiles">
+        <article class="tile">
+          <img src="img/badrum-gra.jpg" alt="Badrum med grått storformatskakel" loading="lazy" width="1100" height="1467">
+          <h3>Badrum och våtrum</h3>
+          <p>Rivning, tätskikt, golvbrunn, fall och kakel. Nytt badrum eller helrenovering.</p>
+        </article>
+        <article class="tile">
+          <img src="img/kok-kakel.jpg" alt="Kök med kvadratiskt kakel och mörk bård" loading="lazy" width="1100" height="1306">
+          <h3>Kök</h3>
+          <p>Stänkskydd och kakelväggar. Rakt, förskjutet, fiskben eller mosaik.</p>
+        </article>
+        <article class="tile">
+          <img src="img/terrass-klinker.jpg" alt="Klinker som går från vardagsrum ut på uteplats" loading="lazy" width="1300" height="920">
+          <h3>Golv i klinker</h3>
+          <p>Hall, kök, tvättstuga och uteplats. Avjämning och underlag ingår i bedömningen.</p>
+        </article>
+        <article class="tile">
+          <img src="img/fischgrat-metall.jpg" alt="Kakel lagt i korgmönster" loading="lazy" width="1200" height="900">
+          <h3>Natursten och mönster</h3>
+          <p>Kalksten, skiffer, granit och marmor. Trappor, fönsterbänkar och murar.</p>
+        </article>
       </div>
     </div>
   </section>
 
-  <section id="kontakt" class="contact">
-    <div class="wrap contact__grid">
+  <section id="vatrum" class="band">
+    <div class="in band__in">
       <div>
-        <h2>Hör av dig</h2>
-        <p class="contact__name">Joakim Schramek</p>
-        <p><a class="contact__big" href="tel:+46725200520">0725-200 520</a></p>
-        <p><a href="mailto:info@jskakel-sten.se">info@jskakel-sten.se</a></p>
-        <p class="contact__addr">Solrosvägen 6<br>442 70 Kärna</p>
-        <div class="badge">
-          <img src="img/behorig-vatrum.png" alt="" width="64" height="64">
-          <p>Behörigt våtrumsföretag<br><span>Byggkeramikrådet, BKR</span></p>
+        <p class="kicker">Specialitet</p>
+        <h2>Våtrum från rivning till kvalitets&shy;dokument</h2>
+      </div>
+      <div>
+        <p class="band__text">JS Kakel &amp; Sten är behörigt våtrumsföretag hos Byggkeramikrådet. Det betyder att tätskikt och plattsättning görs enligt branschreglerna och att du får ett kvalitetsdokument när badrummet är klart. Det är värt att ha mot försäkringsbolaget och när huset ska säljas.</p>
+        <div class="band__badge">
+          <img src="img/behorig-vatrum.png" alt="Behörig våtrum, Byggkeramikrådet" width="64" height="64">
+          <a class="btn btn-y" href="#kontakt">Begär offert på badrum</a>
         </div>
       </div>
+    </div>
+  </section>
 
+  <section id="om" class="beige">
+    <div class="in about">
+      <figure class="about__img">
+        <img src="img/vagg-relief.jpg" alt="Grå reliefkakel på vägg med blå glasvaser" loading="lazy" width="1400" height="1867">
+      </figure>
+      <div class="about__text">
+        <p class="eyebrow">Om JS Kakel &amp; Sten</p>
+        <h2>En plattsättare, hela vägen</h2>
+        <p class="lead">Jag heter Joakim Schramek och driver firman själv från Kärna utanför Kungälv. Den du pratar med när du ringer är den som kommer hem till dig, lämnar offerten och sätter plattorna.</p>
+        <dl class="facts">
+          <div><dt>2014</dt><dd>startade firman</dd></div>
+          <div><dt>1</dt><dd>kontakt från start till mål</dd></div>
+          <div><dt>BKR</dt><dd>behörig våtrum</dd></div>
+        </dl>
+        <ol class="steps">
+          <li><b>Du hör av dig</b>Ring eller skriv, gärna med några bilder.</li>
+          <li><b>Hembesök</b>Vi går igenom underlag, mått och material.</li>
+          <li><b>Offert</b>Skriftlig, med ROT-avdraget inräknat.</li>
+          <li><b>Utförande</b>Från rivning till fog, av samma person.</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section id="fragor">
+    <div class="in faq">
+      <div>
+        <p class="eyebrow">Frågor och svar</p>
+        <h2>Undrar du något?</h2>
+        <p class="lead">Hittar du inte svaret här? Ring Joakim på <a href="tel:+46725200520">0725-200 520</a>.</p>
+      </div>
+      <div class="faq__list">
+        <details>
+          <summary>Var jobbar du?</summary>
+          <p>I Kungälv och Göteborg med omnejd. Firman ligger i Kärna.</p>
+        </details>
+        <details>
+          <summary>Får jag ROT-avdrag?</summary>
+          <p>Ja, på arbetskostnaden när jobbet görs i ditt hem. Avdraget dras direkt på fakturan.</p>
+        </details>
+        <details>
+          <summary>Vad är ett kvalitetsdokument?</summary>
+          <p>Ett intyg från behörigt våtrumsföretag som visar att tätskikt och plattsättning är gjorda enligt Byggkeramikrådets branschregler. Spara det, försäkringsbolaget kan fråga efter det vid en vattenskada.</p>
+        </details>
+        <details>
+          <summary>Kan jag välja plattor själv?</summary>
+          <p>Ja. Ta gärna med dina val till hembesöket så går vi igenom vad som passar underlaget och rummet.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontakt" class="beige">
+    <div class="in contact">
+      <div class="contact__card">
+        <p class="kicker">Kontakt</p>
+        <h2>Prata med Joakim</h2>
+        <a class="contact__tel" href="tel:+46725200520">0725-200 520</a>
+        <a href="mailto:info@jskakel-sten.se">info@jskakel-sten.se</a>
+        <p class="contact__addr">Solrosvägen 6, 442 70 Kärna</p>
+      </div>
       <form class="form" id="form" novalidate>
         <label>Namn<input name="namn" autocomplete="name" required></label>
         <div class="form__row">
@@ -140,23 +179,71 @@
           <label>E-post<input name="epost" type="email" autocomplete="email"></label>
         </div>
         <label>Ort<input name="ort" autocomplete="address-level2"></label>
-        <label>Vad ska göras?<textarea name="meddelande" rows="5" required></textarea></label>
-        <button class="btn btn--light" type="submit">Skicka förfrågan</button>
+        <label>Vad ska göras?<textarea name="meddelande" rows="4" required></textarea></label>
+        <button class="btn btn-dark" type="submit">Skicka förfrågan</button>
         <p class="form__note">Formuläret öppnar ditt e-postprogram med meddelandet ifyllt.</p>
       </form>
+    </div>
+  </section>
+
+  <section class="fcta">
+    <div class="in fcta__in">
+      <div>
+        <h2>Ska du göra om badrummet?</h2>
+        <p>Berätta vad du har tänkt, så kommer Joakim ut och tittar.</p>
+      </div>
+      <a class="btn btn-dark" href="tel:+46725200520">Ring 0725-200 520</a>
     </div>
   </section>
 
 </main>
 
 <footer class="foot">
-  <div class="wrap foot__inner">
-    <p>JS Kakel &amp; Sten AB · Org.nr 556966-8139 · Innehar F-skatt</p>
-    <p>Solrosvägen 6, 442 70 Kärna</p>
+  <div class="in foot__grid">
+    <div>
+      <img class="foot__logo" src="img/logo-vit.png" alt="JS Kakel &amp; Sten AB" width="684" height="171" loading="lazy">
+      <p>Kakel, klinker och stensättning i Kungälv och Göteborg sedan 2014.</p>
+    </div>
+    <div>
+      <h3>Tjänster</h3>
+      <a href="#tjanster">Badrum och våtrum</a>
+      <a href="#tjanster">Kök</a>
+      <a href="#tjanster">Golv i klinker</a>
+      <a href="#tjanster">Natursten</a>
+    </div>
+    <div>
+      <h3>Kontakt</h3>
+      <a href="tel:+46725200520">0725-200 520</a>
+      <a href="mailto:info@jskakel-sten.se">info@jskakel-sten.se</a>
+      <p>Solrosvägen 6<br>442 70 Kärna</p>
+    </div>
+    <div>
+      <h3>Företag</h3>
+      <p>JS Kakel &amp; Sten AB</p>
+      <p>Org.nr 556966-8139</p>
+      <p>Innehar F-skatt</p>
+    </div>
+  </div>
+  <div class="in foot__bottom">
+    <p>© 2026 JS Kakel &amp; Sten AB</p>
+    <a href="#">Till toppen ↑</a>
   </div>
 </footer>
 
 <script>
+  var nav = document.getElementById('nav');
+  var menu = nav.querySelector('.nav__menu');
+  menu.addEventListener('click', function () {
+    var open = nav.classList.toggle('open');
+    menu.setAttribute('aria-expanded', open);
+  });
+  nav.querySelectorAll('.nav__drop a').forEach(function (a) {
+    a.addEventListener('click', function () {
+      nav.classList.remove('open');
+      menu.setAttribute('aria-expanded', 'false');
+    });
+  });
+
   document.getElementById('form').addEventListener('submit', function (e) {
     e.preventDefault();
     var f = e.target;

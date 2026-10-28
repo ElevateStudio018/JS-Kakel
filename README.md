@@ -2,7 +2,11 @@
 
 Statisk enkelsida, ingen byggprocess. Öppna `site/index.html` i en webbläsare eller ladda upp mappen `site/` till valfritt webbhotell.
 
-- `site/` – hemsidan (HTML, CSS, optimerade bilder)
+- `site/` – hemsidan (HTML, CSS, optimerade bilder). Version 2: en mix av Bloms El & Data
+  (blå navbar i firmans färg, duotone-hero, fyra förtroendekort) och Ängö Entreprenad
+  (Outfit + DM Sans, gula etiketter, tjänstekort, om-sektion med gul offsetskugga och siffror,
+  FAQ, gult CTA-band med varningsränder, mörk sidfot).
+- `design/v1-ren/` – första versionen, stram och typografisk
 - `scrape/` – skrapat underlag från gamla sajten, se `scrape/INFO.md`
 
 ## Att stämma av med kunden
